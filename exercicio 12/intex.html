@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,6 +9,16 @@
 </head>
 <body>
     <h1>imagems Dinâmicas</h1>
-    <h2>Imagen flexiveis</h2>
+    <h2>Extreite a pagina para a magica acontecer</h2>
+    <picture>
+        <source media="(max-width: 700px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="imagem flexivel">
+    </picture>
+    <h1>Reproduzindo Audios</h1>
+    <p>Vamos aprender a reproduzir audios em HTML5</p>
+    <audio src="midia/happy-mistake.mp3" controls autoplay></audio>
+    <p>
+    <audio src="midia/guanacast-33.mp3" controls autoplay></audio></p>
 </body>
 </html>
